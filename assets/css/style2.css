@@ -6871,6 +6871,29 @@ video {
     text-transform: capitalize;
     color: #e4e4e4;
 }
+
+/* Pure CSS Marquee */
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.marquee_text {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width: max-content;
+    animation: marquee-scroll 25s linear infinite;
+    gap: 50px;
+}
+.marquee_text:hover {
+    animation-play-state: paused;
+}
+
 @media (max-width: 576px) {
     .home5-testimonial-area .testimonial-wrapper .testimonial-content p {
         font-size: 18px;
