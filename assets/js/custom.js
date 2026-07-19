@@ -36,6 +36,32 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // Native Accordion Toggle (replaces bootstrap.min.js)
+    document.querySelectorAll('.accordion-button').forEach(function (button) {
+        button.addEventListener('click', function () {
+            var targetId = this.getAttribute('data-bs-target');
+            var targetContent = targetId ? document.querySelector(targetId) : null;
+            var isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+            var parent = this.closest('.accordion');
+            if (parent) {
+                parent.querySelectorAll('.accordion-button').forEach(function (btn) {
+                    btn.classList.add('collapsed');
+                    btn.setAttribute('aria-expanded', 'false');
+                });
+                parent.querySelectorAll('.accordion-collapse').forEach(function (content) {
+                    content.classList.remove('show');
+                });
+            }
+
+            if (!isExpanded && targetContent) {
+                this.classList.remove('collapsed');
+                this.setAttribute('aria-expanded', 'true');
+                targetContent.classList.add('show');
+            }
+        });
+    });
+
     // Sticky header & menu
     window.addEventListener('scroll', function () {
         var header = document.querySelector('header.header-area2, .header5');

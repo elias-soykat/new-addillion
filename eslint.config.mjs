@@ -10,8 +10,6 @@ export default [
       "node_modules/**",
       "assets/js/*.min.js",
       "assets/js/*.min.jssourcemap",
-      "assets/js/bootstrap.min.js",
-      "assets/js/popper.min.js",
       "assets/js/swiper-bundle.min.js",
     ],
   },
