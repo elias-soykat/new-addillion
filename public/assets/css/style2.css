@@ -5302,8 +5302,8 @@ video {
     left: 50%;
     transform: translateX(-50%);
     bottom: -28px;
-    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    -webkit-clippath: polygon(50% 100%, 0 0, 100% 0);
+    clippath: polygon(50% 100%, 0 0, 100% 0);
     opacity: 0;
     transition: 0.35s;
 }
