@@ -4,6 +4,4 @@ assets/js/*.min.jssourcemap
 assets/js/swiper-bundle.min.js
 assets/css/*.min.css
 assets/css/bootstrap.min.css
-assets/css/bootstrap-icons.css
 assets/css/swiper-bundle.min.css
-assets/css/boxicons.min.css
