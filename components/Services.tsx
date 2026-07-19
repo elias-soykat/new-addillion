@@ -20,8 +20,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
@@ -107,8 +107,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
@@ -198,8 +198,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
@@ -292,8 +292,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
@@ -380,8 +380,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
@@ -467,8 +467,8 @@ export default function Services() {
                         data-wow-duration="1500ms"
                     >
                         <div className="solution-card magnetic-item">
-                            <div class="icon">
-                                <div class="icon-bg">
+                            <div className="icon">
+                                <div className="icon-bg">
                                     <svg
                                         width="122"
                                         height="122"
