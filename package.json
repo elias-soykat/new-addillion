@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint assets/js/custom.js",
     "lint:fix": "eslint assets/js/custom.js --fix",
-    "format": "prettier --write \"assets/js/custom.js\" \"assets/css/style2.css\" \"assets/css/preloader.css\" \"assets/css/style2.scss\" \"index4.html\"",
-    "format:check": "prettier --check \"assets/js/custom.js\" \"assets/css/style2.css\" \"assets/css/preloader.css\" \"assets/css/style2.scss\" \"index4.html\""
+    "format": "prettier --write \"assets/js/custom.js\" \"assets/css/style2.css\" \"assets/css/preloader.css\" \"index4.html\"",
+    "format:check": "prettier --check \"assets/js/custom.js\" \"assets/css/style2.css\" \"assets/css/preloader.css\" \"index4.html\""
   },
   "repository": {
     "type": "git",
