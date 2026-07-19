@@ -1,0 +1,13 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/effect-fade";
+
+/* Ensure responsive images and smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: inherit;
+}

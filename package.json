@@ -1,33 +1,23 @@
 {
   "name": "addillion",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint assets/js/custom.js",
-    "lint:fix": "eslint assets/js/custom.js --fix",
-    "format": "prettier --write \"assets/js/custom.js\" \"assets/css/style2.css\" \"index.html\"",
-    "format:check": "prettier --check \"assets/js/custom.js\" \"assets/css/style2.css\" \"index.html\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elias-soykat/new-addillion.git"
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "swiper": "^11.1.14"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/elias-soykat/new-addillion/issues"
-  },
-  "homepage": "https://github.com/elias-soykat/new-addillion#readme",
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.7.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.6",
-    "globals": "^17.7.0",
-    "prettier": "^3.9.5"
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
   }
 }
